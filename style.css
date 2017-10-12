@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Open Sans Extrabold";
+    src: url(fonts/OpenSans-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Sweet Sensations Personal Use Regular";
+    src: url(fonts/Sweet%20Sensations%20Personal%20Use.ttf) format("truetype");
+}
+
+#banner {
+    background-color: black;
+    height: 115px;
+    color: white;
+    padding-top: 10px;
+}
+
+#banner-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 100px;
+    font-family: "Sweet Sensations Personal Use Regular";
+    font-size: 60px;
+    color: yellow;
+}
+
+#banner-nav {
+
+}
+
+#banner-nav > a, #banner-nav > a:visited, #banner-nav > a:link, #banner-nav > a:active {
+    padding: 20px;
+    font-family: "Parker";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#banner-nav > a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.activest {
+    font-size: 30px!important;
+    color: yellow!important;
+}
+
+#my-home {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.headers {
+    padding: 100px;
+}
+
+#header1 {
+    color: #393939;
+    font-size: 30px;
+    font-family: "Open Sans Extrabold";
+}
+
+#header2 {
+    color: #6f6f6f;
+    -webkit-transform: translateY(-25px);
+    font-size: 60px;
+    font-family: "Open Sans Extrabold";
+}
+
+#header3 {
+    color: #393939;
+    -webkit-transform: translateY(-48px);
+    font-size: 30px;
+    font-family: "Open Sans Extrabold";
+}
+
+#header4 {
+    -webkit-transform: translateY(-90px);
+    font-size: 100px;
+    font-family: "Open Sans Extrabold";
+}
+
+#header5 {
+    color: #999999;
+    -webkit-transform: translateY(-100px);
+}
+
+#dp {
+    background-color: yellow;
+}
+
+#my-image {
+    -webkit-transform: translateX(800px) translateY(25px);
+    position: fixed;
+}
+
+#my-contact {
+    margin-top: 100px;
+}
+
+.list-group-item.active {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}
+
+a.facebook, a.facebook:visited, a.facebook:hover {
+    color: #3b5998;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a.twitter, a.twitter:visited, a.twitter:hover {
+    color: #0084b4;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a.instagram, a.instagram:visited, a.instagram:hover {
+    color: black;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a.youtube, a.youtube:visited, a.youtube:hover {
+    color: #cc181e;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#my-about {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
